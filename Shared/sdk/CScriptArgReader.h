@@ -9,6 +9,9 @@
 *
 *****************************************************************************/
 
+#ifndef _SCRIPT_ARGUMENT_READER_HEADER_
+#define _SCRIPT_ARGUMENT_READER_HEADER_
+
 // If any new class is added, please update this!
 static inline const char* lua_gettransmittype( int transmit )
 {
@@ -607,3 +610,5 @@ pass:
     LuaFunctionRef*         m_pPendingFunctionOutValue;
     int                     m_pPendingFunctionIndex;
 };
+
+#endif //_SCRIPT_ARGUMENT_READER_HEADER_
