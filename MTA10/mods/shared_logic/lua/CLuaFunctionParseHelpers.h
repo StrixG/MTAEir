@@ -9,6 +9,9 @@
 *
 *****************************************************************************/
 
+#ifndef _LUA_FUNCTION_PARSE_HELPERS_
+#define _LUA_FUNCTION_PARSE_HELPERS_
+
 // Forward declare enum reflection stuff
 
 enum eLuaType { };
@@ -152,3 +155,5 @@ bool MixedReadGuiFontString ( CScriptArgReader& argStream, SString& strFontName,
 bool MixedReadMaterialString ( CScriptArgReader& argStream, CClientMaterial*& pMaterialElement );
 
 #endif //MTA_CLIENT
+
+#endif //_LUA_FUNCTION_PARSE_HELPERS_

@@ -30,7 +30,7 @@
 
 #undef max
 
-#include <CFileSystem.common.unichar.h>
+#include <sdk/UniChar.h>
 
 #include <d3dx9.h>
 #include <dxerr.h>

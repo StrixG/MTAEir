@@ -673,9 +673,6 @@
     <ClCompile Include="..\..\..\..\Shared\animation\CPositionRotationAnimation.cpp">
       <Filter>animation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Shared\animation\EasingEquations.cpp">
-      <Filter>animation</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\sdk\derived\CLogger.cpp">
       <Filter>derived</Filter>
     </ClCompile>

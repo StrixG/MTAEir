@@ -8,8 +8,6 @@
 *
 *****************************************************************************/
 
-#include <StdInc.h>
-
 /*
 Disclaimer for Robert Penner's Easing Equations license:
 

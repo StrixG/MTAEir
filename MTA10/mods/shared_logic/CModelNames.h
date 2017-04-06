@@ -9,6 +9,9 @@
 *
 *****************************************************************************/
 
+#ifndef _MTA_MODEL_NAMES_HEADER_
+#define _MTA_MODEL_NAMES_HEADER_
+
 class CModelNames
 {
 public:
@@ -22,3 +25,5 @@ protected:
     static std::map < ushort, const char* >     ms_ModelIDNameMap;
     static std::map < SString, ushort >         ms_NameModelIDMap;
 };
+
+#endif //_MTA_MODEL_NAMES_HEADER_

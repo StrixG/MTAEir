@@ -94,7 +94,7 @@
       <SDLCheck>false</SDLCheck>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>StdInc.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\..\..\..\eirshared\eirrepo\;..\..\..\..\eirshared\FileSystem\include\;..\..\..\..\eirshared\debugsdk\;..\..\..\..\eirshared\NativeExecutive\include\;..\..\..\..\Shared\sdk\;..\..\..\..\Shared\;..\..\..\sdk\;..\..\..\..\Shared\shared_sdk\;..\..\shared_logic\;..\..\..\..\eirshared\lua\src\;..\..\..\..\lua_interpret\;..\..\..\..\vendor\libspeex\include\;..\..\..\..\vendor\libspeexdsp\include\;..\..\..\..\vendor\portaudio\;..\..\..\..\vendor\bass\;..\..\..\..\vendor\bochs\;..\..\..\..\eirshared\zlib\;..\config\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\eirshared\eirrepo\;..\..\..\..\eirshared\FileSystem\include\;..\..\..\..\eirshared\debugsdk\;..\..\..\..\eirshared\NativeExecutive\include\;..\..\..\..\Shared\sdk\;..\..\..\..\Shared\;..\..\..\sdk\;..\..\..\..\Shared\shared_sdk\;..\..\shared_logic\;..\..\..\..\eirshared\lua\src\;..\..\..\..\vendor\libspeex\include\;..\..\..\..\vendor\libspeexdsp\include\;..\..\..\..\vendor\portaudio\;..\..\..\..\vendor\bass\;..\..\..\..\vendor\bochs\;..\..\..\..\eirshared\zlib\;..\config\;..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4996</DisableSpecificWarnings>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <AdditionalOptions>/D MTA_DEBUG %(AdditionalOptions)</AdditionalOptions>
@@ -120,7 +120,7 @@ xcopy /Y "$(SolutionDir)..\..\MTA10\mods\deathmatch\bin\$(Platform)\$(Configurat
       <SDLCheck>false</SDLCheck>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>StdInc.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\..\..\..\eirshared\eirrepo\;..\..\..\..\eirshared\FileSystem\include\;..\..\..\..\eirshared\debugsdk\;..\..\..\..\eirshared\NativeExecutive\include\;..\..\..\..\Shared\sdk\;..\..\..\..\Shared\;..\..\..\sdk\;..\..\..\..\Shared\shared_sdk\;..\..\shared_logic\;..\..\..\..\eirshared\lua\src\;..\..\..\..\lua_interpret\;..\..\..\..\vendor\libspeex\include\;..\..\..\..\vendor\libspeexdsp\include\;..\..\..\..\vendor\portaudio\;..\..\..\..\vendor\bass\;..\..\..\..\vendor\bochs\;..\..\..\..\eirshared\zlib\;..\config\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\eirshared\eirrepo\;..\..\..\..\eirshared\FileSystem\include\;..\..\..\..\eirshared\debugsdk\;..\..\..\..\eirshared\NativeExecutive\include\;..\..\..\..\Shared\sdk\;..\..\..\..\Shared\;..\..\..\sdk\;..\..\..\..\Shared\shared_sdk\;..\..\shared_logic\;..\..\..\..\eirshared\lua\src\;..\..\..\..\vendor\libspeex\include\;..\..\..\..\vendor\libspeexdsp\include\;..\..\..\..\vendor\portaudio\;..\..\..\..\vendor\bass\;..\..\..\..\vendor\bochs\;..\..\..\..\eirshared\zlib\;..\config\;..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4996</DisableSpecificWarnings>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <AdditionalOptions>/D MTA_DEBUG %(AdditionalOptions)</AdditionalOptions>
@@ -148,7 +148,7 @@ xcopy /Y "$(SolutionDir)..\..\MTA10\mods\deathmatch\bin\$(Platform)\$(Configurat
       <SDLCheck>false</SDLCheck>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>StdInc.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\..\..\..\eirshared\eirrepo\;..\..\..\..\eirshared\FileSystem\include\;..\..\..\..\eirshared\debugsdk\;..\..\..\..\eirshared\NativeExecutive\include\;..\..\..\..\Shared\sdk\;..\..\..\..\Shared\;..\..\..\sdk\;..\..\..\..\Shared\shared_sdk\;..\..\shared_logic\;..\..\..\..\eirshared\lua\src\;..\..\..\..\lua_interpret\;..\..\..\..\vendor\libspeex\include\;..\..\..\..\vendor\libspeexdsp\include\;..\..\..\..\vendor\portaudio\;..\..\..\..\vendor\bass\;..\..\..\..\vendor\bochs\;..\..\..\..\eirshared\zlib\;..\config\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\eirshared\eirrepo\;..\..\..\..\eirshared\FileSystem\include\;..\..\..\..\eirshared\debugsdk\;..\..\..\..\eirshared\NativeExecutive\include\;..\..\..\..\Shared\sdk\;..\..\..\..\Shared\;..\..\..\sdk\;..\..\..\..\Shared\shared_sdk\;..\..\shared_logic\;..\..\..\..\eirshared\lua\src\;..\..\..\..\vendor\libspeex\include\;..\..\..\..\vendor\libspeexdsp\include\;..\..\..\..\vendor\portaudio\;..\..\..\..\vendor\bass\;..\..\..\..\vendor\bochs\;..\..\..\..\eirshared\zlib\;..\config\;..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4996</DisableSpecificWarnings>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
@@ -176,7 +176,7 @@ xcopy /Y "$(SolutionDir)..\..\MTA10\mods\deathmatch\bin\$(Platform)\$(Configurat
       <SDLCheck>false</SDLCheck>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>StdInc.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\..\..\..\eirshared\eirrepo\;..\..\..\..\eirshared\FileSystem\include\;..\..\..\..\eirshared\debugsdk\;..\..\..\..\eirshared\NativeExecutive\include\;..\..\..\..\Shared\sdk\;..\..\..\..\Shared\;..\..\..\sdk\;..\..\..\..\Shared\shared_sdk\;..\..\shared_logic\;..\..\..\..\eirshared\lua\src\;..\..\..\..\lua_interpret\;..\..\..\..\vendor\libspeex\include\;..\..\..\..\vendor\libspeexdsp\include\;..\..\..\..\vendor\portaudio\;..\..\..\..\vendor\bass\;..\..\..\..\vendor\bochs\;..\..\..\..\eirshared\zlib\;..\config\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\eirshared\eirrepo\;..\..\..\..\eirshared\FileSystem\include\;..\..\..\..\eirshared\debugsdk\;..\..\..\..\eirshared\NativeExecutive\include\;..\..\..\..\Shared\sdk\;..\..\..\..\Shared\;..\..\..\sdk\;..\..\..\..\Shared\shared_sdk\;..\..\shared_logic\;..\..\..\..\eirshared\lua\src\;..\..\..\..\vendor\libspeex\include\;..\..\..\..\vendor\libspeexdsp\include\;..\..\..\..\vendor\portaudio\;..\..\..\..\vendor\bass\;..\..\..\..\vendor\bochs\;..\..\..\..\eirshared\zlib\;..\config\;..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4996</DisableSpecificWarnings>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
@@ -210,7 +210,6 @@ xcopy /Y "$(SolutionDir)..\..\MTA10\mods\deathmatch\bin\$(Platform)\$(Configurat
     </ClCompile>
     <ClCompile Include="..\..\..\..\Shared\animation\CEasingCurve.cpp" />
     <ClCompile Include="..\..\..\..\Shared\animation\CPositionRotationAnimation.cpp" />
-    <ClCompile Include="..\..\..\..\Shared\animation\EasingEquations.cpp" />
     <ClCompile Include="..\..\..\..\Shared\logic\Events.cpp" />
     <ClCompile Include="..\..\..\..\Shared\logic\Logger.cpp" />
     <ClCompile Include="..\..\..\..\Shared\logic\LuaCFunctions.cpp" />

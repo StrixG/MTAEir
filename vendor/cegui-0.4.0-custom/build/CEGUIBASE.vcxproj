@@ -89,7 +89,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>..\include;..\..\..\Shared\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\src\;..\..\D3D9\;..\..\DXERR\;..\..\freetype-2.4.12\include\;..\..\..\vendor\pcre\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;..\..\..\Shared\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\include\;..\..\D3D9\;..\..\DXERR\;..\..\freetype-2.4.12\include\;..\..\..\vendor\pcre\</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4996;4838;4267</DisableSpecificWarnings>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -107,7 +107,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>..\include;..\..\..\Shared\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\src\;..\..\D3D9\;..\..\DXERR\;..\..\freetype-2.4.12\include\;..\..\..\vendor\pcre\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;..\..\..\Shared\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\include\;..\..\D3D9\;..\..\DXERR\;..\..\freetype-2.4.12\include\;..\..\..\vendor\pcre\</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4996;4838;4267</DisableSpecificWarnings>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -127,7 +127,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>..\include;..\..\..\Shared\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\src\;..\..\D3D9\;..\..\DXERR\;..\..\freetype-2.4.12\include\;..\..\..\vendor\pcre\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;..\..\..\Shared\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\include\;..\..\D3D9\;..\..\DXERR\;..\..\freetype-2.4.12\include\;..\..\..\vendor\pcre\</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4996;4838;4267</DisableSpecificWarnings>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
@@ -149,7 +149,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>..\include;..\..\..\Shared\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\src\;..\..\D3D9\;..\..\DXERR\;..\..\freetype-2.4.12\include\;..\..\..\vendor\pcre\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;..\..\..\Shared\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\include\;..\..\D3D9\;..\..\DXERR\;..\..\freetype-2.4.12\include\;..\..\..\vendor\pcre\</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4996;4838;4267</DisableSpecificWarnings>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>

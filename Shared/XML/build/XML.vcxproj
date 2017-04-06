@@ -94,7 +94,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>false</SDLCheck>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\sdk;..\..\..\vendor\tinyxml\;..\..\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\src\;..\..\..\eirshared\NativeExecutive\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\sdk;..\..\..\vendor\tinyxml\;..\..\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\include\;..\..\..\eirshared\NativeExecutive\</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <PostBuildEvent>
@@ -108,7 +108,7 @@ xcopy /Y "$(SolutionDir)..\..\Shared\XML\bin\$(Platform)\$(Configuration)\$(Targ
       <Optimization>Disabled</Optimization>
       <SDLCheck>false</SDLCheck>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\sdk;..\..\..\vendor\tinyxml\;..\..\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\src\;..\..\..\eirshared\NativeExecutive\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\sdk;..\..\..\vendor\tinyxml\;..\..\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\include\;..\..\..\eirshared\NativeExecutive\</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <PostBuildEvent>
@@ -124,7 +124,7 @@ xcopy /Y "$(SolutionDir)..\..\Shared\XML\bin\$(Platform)\$(Configuration)\$(Targ
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>false</SDLCheck>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\sdk;..\..\..\vendor\tinyxml\;..\..\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\src\;..\..\..\eirshared\NativeExecutive\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\sdk;..\..\..\vendor\tinyxml\;..\..\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\include\;..\..\..\eirshared\NativeExecutive\</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -144,7 +144,7 @@ xcopy /Y "$(SolutionDir)..\..\Shared\XML\bin\$(Platform)\$(Configuration)\$(Targ
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>false</SDLCheck>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\sdk;..\..\..\vendor\tinyxml\;..\..\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\src\;..\..\..\eirshared\NativeExecutive\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\sdk;..\..\..\vendor\tinyxml\;..\..\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\include\;..\..\..\eirshared\NativeExecutive\</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
