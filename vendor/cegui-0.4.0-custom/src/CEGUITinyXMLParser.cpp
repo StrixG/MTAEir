@@ -31,6 +31,11 @@
 
 #include <sdk/SharedUtil.h>
 
+#undef min
+#undef max
+
+#include <sdk/MemoryUtils.stream.h>
+
 // Start of CEGUI namespace section
 namespace CEGUI
 {
@@ -57,13 +62,13 @@ namespace CEGUI
         System::getSingleton().getResourceProvider()->loadRawDataContainer(filename, rawXMLData, resourceGroup);
 
         // Copy data and make sure buffer does not end with a whitespace character
-        SharedUtil::CBuffer buffer ( rawXMLData.getDataPtr (), rawXMLData.getSize () );
-        SharedUtil::CBufferWriteStream stream ( buffer );
-        stream.Seek ( stream.GetSize () );
-        stream.Write ( (uchar)0 );
+        BasicMemStream::basicMemStreamAllocMan <ptrdiff_t> allocMan;
+        BasicMemStream::basicMemoryBufferStream <ptrdiff_t> stream( NULL, 0, allocMan );
+        stream.Write( rawXMLData.getDataPtr(), rawXMLData.getSize() );
+        stream.WriteUInt8( (uchar)0 );
 
         TiXmlDocument doc;
-        doc.Parse((const char*)buffer.GetData());
+        doc.Parse((const char*)stream.Data());
 
         const TiXmlElement* currElement = doc.RootElement();
 

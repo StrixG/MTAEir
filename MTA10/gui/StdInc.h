@@ -20,6 +20,7 @@
 
 #define MTA_CLIENT
 #include "SharedUtil.h"
+#include <utils/CBuffer.h>
 #include <core/CCoreInterface.h>
 #include "CGUITabListItem.h"
 #include "CGUITabList.h"

@@ -50,6 +50,7 @@
 // Core-level includes
 #define MTA_CLIENT
 #include "SharedUtil.h"
+#include <utils/CBuffer.h>
 #include <sdk/MemoryUtils.h>
 #include "CrashHandler.h"
 #include "CCore.h"

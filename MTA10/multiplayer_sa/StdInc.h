@@ -19,6 +19,7 @@
 // SDK includes
 #define MTA_CLIENT
 #include "SharedUtil.h"
+#include <utils/CBuffer.h>
 #include <core/CCoreInterface.h>
 #include <net/CNet.h>
 #include <game/CGame.h>
