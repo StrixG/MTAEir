@@ -28,6 +28,8 @@ CFileTranslator *modFileRoot = NULL;
 CFileTranslator *mtaFileRoot = NULL;
 CFileSystemInterface *fileSystem = NULL;
 
+CFileSystemInterface *pubFileSystem = NULL;
+
 int CClient::ClientInitialize ( const char* szArguments, CCoreInterface* pCore )
 {
     // Supported core version?
