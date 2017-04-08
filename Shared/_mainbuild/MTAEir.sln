@@ -81,7 +81,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CEGUIFalagard", "..\..\vend
 		{AB96FAC1-DA1C-41FF-9D70-9D773B9FB04A} = {AB96FAC1-DA1C-41FF-9D70-9D773B9FB04A}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "freetype", "..\..\vendor\freetype-2.4.12\build\freetype.vcxproj", "{8EED4E1E-7FAB-4EE1-B732-2F8107572981}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "freetype", "..\..\eirshared\freetype\build\freetype.vcxproj", "{8EED4E1E-7FAB-4EE1-B732-2F8107572981}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjpeg", "..\..\eirshared\jpeg\build\vs2015\libjpeg.vcxproj", "{7209B422-33E4-49E4-BAEA-9B10DF7502D3}"
 EndProject

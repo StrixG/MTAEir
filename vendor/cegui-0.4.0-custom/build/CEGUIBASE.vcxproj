@@ -89,7 +89,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>..\include;..\..\..\Shared\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\include\;..\..\D3D9\;..\..\DXERR\;..\..\freetype-2.4.12\include\;..\..\..\vendor\pcre\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;..\..\..\Shared\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\include\;..\..\D3D9\;..\..\DXERR\;..\..\..\eirshared\freetype\include\;..\..\..\vendor\pcre\</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4996;4838;4267</DisableSpecificWarnings>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -99,7 +99,7 @@
       <AdditionalDependencies>freetype.lib;pcre.lib</AdditionalDependencies>
     </Lib>
     <Lib>
-      <AdditionalLibraryDirectories>..\..\freetype-2.4.12\lib\$(Platform)\$(Configuration)\;..\..\pcre\lib\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\..\eirshared\freetype\lib\$(Platform)\$(Configuration)\;..\..\pcre\lib\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -107,7 +107,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>..\include;..\..\..\Shared\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\include\;..\..\D3D9\;..\..\DXERR\;..\..\freetype-2.4.12\include\;..\..\..\vendor\pcre\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;..\..\..\Shared\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\include\;..\..\D3D9\;..\..\DXERR\;..\..\..\eirshared\freetype\include\;..\..\..\vendor\pcre\</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4996;4838;4267</DisableSpecificWarnings>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -117,7 +117,7 @@
       <AdditionalDependencies>freetype.lib;pcre.lib</AdditionalDependencies>
     </Lib>
     <Lib>
-      <AdditionalLibraryDirectories>..\..\freetype-2.4.12\lib\$(Platform)\$(Configuration)\;..\..\pcre\lib\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\..\eirshared\freetype\lib\$(Platform)\$(Configuration)\;..\..\pcre\lib\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -127,7 +127,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>..\include;..\..\..\Shared\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\include\;..\..\D3D9\;..\..\DXERR\;..\..\freetype-2.4.12\include\;..\..\..\vendor\pcre\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;..\..\..\Shared\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\include\;..\..\D3D9\;..\..\DXERR\;..\..\..\eirshared\freetype\include\;..\..\..\vendor\pcre\</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4996;4838;4267</DisableSpecificWarnings>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
@@ -139,7 +139,7 @@
       <AdditionalDependencies>freetype.lib;pcre.lib</AdditionalDependencies>
     </Lib>
     <Lib>
-      <AdditionalLibraryDirectories>..\..\freetype-2.4.12\lib\$(Platform)\$(Configuration)\;..\..\pcre\lib\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\..\eirshared\freetype\lib\$(Platform)\$(Configuration)\;..\..\pcre\lib\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -149,7 +149,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>..\include;..\..\..\Shared\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\include\;..\..\D3D9\;..\..\DXERR\;..\..\freetype-2.4.12\include\;..\..\..\vendor\pcre\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;..\..\..\Shared\;..\..\..\eirshared\eirrepo\;..\..\..\eirshared\FileSystem\include\;..\..\D3D9\;..\..\DXERR\;..\..\..\eirshared\freetype\include\;..\..\..\vendor\pcre\</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4996;4838;4267</DisableSpecificWarnings>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
@@ -161,7 +161,7 @@
       <AdditionalDependencies>freetype.lib;pcre.lib</AdditionalDependencies>
     </Lib>
     <Lib>
-      <AdditionalLibraryDirectories>..\..\freetype-2.4.12\lib\$(Platform)\$(Configuration)\;..\..\pcre\lib\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\..\eirshared\freetype\lib\$(Platform)\$(Configuration)\;..\..\pcre\lib\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
